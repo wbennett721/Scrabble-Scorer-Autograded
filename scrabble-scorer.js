@@ -158,8 +158,8 @@ function runProgram() {
   //console.log("oldScrabble Value: " + oldScrabbleScorerFunction(word));
   //console.log("simpleScorer Value: " + simpleScoreFunction(word));
   //console.log("vowelBonusScorer Value: " + vowelBonusScorerFunction(word));
-  console.log(`Score for ${word}: ` + answer.scoreFunction(word));
-  console.log(newPointStructure);
+  console.log(`Score for ${word}: ` + answer.scorerFunction(word));
+  //console.log(newPointStructure);
   }
 
 // Don't write any code below this line //
